@@ -121,3 +121,26 @@ body::after {
     background: transparent;
   }
 
+.footer {
+  display: flex;
+  padding-top: 100px;
+  position: bottom;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px; /* Adjust the height of the footer as needed */
+  justify-content: center;
+  align-items: center;
+}
+
+.github-link {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  color: black;
+}
+
+.github-link i {
+  margin-right: 5px;
+}
