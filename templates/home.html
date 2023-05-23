@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cover Letter Generator</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<div class="header">
+    <h1 class="title">Cover Letter Generator</h1>
+</div>
+<body style="--url: url(/static/mesh.jpg)">
+    <div class="description"> Create custom generated cover letters on the fly.</div>
+    <form method="post">
+        <div class="form-container" style="text-align: left;">
+            <div class="form-group">
+                <label>Name:</label>
+                <input name="name">
+                <label>Email:</label>
+                <input name="email">
+            </div>
+            <br>
+            <div class="form-group">
+                <label>Phone:</label>
+                <input name="phone">
+                <label>Address:</label>
+                <input name="address">
+            </div>
+            <br/><br/>
+            <br/><br/>
+            <div class="form-group">
+                <label>Skills</label>
+                <input name="skills">
+                <label>Company:</label>
+                <input name="company">
+            </div>
+            <br>
+            <div class="form-group">
+                <label>Position:</label>
+                <input name="position">
+                <label>Bio:</label>
+                <textarea name="bio" id="bio" cols="30" rows="3"></textarea>
+                <br/><br/>
+            </div>
+        </div>
+        
+        <div class="button-container">
+            <button id="submit-btn" type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>

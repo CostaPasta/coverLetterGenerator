@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<div class="header">
+    <h1 class="title">Here is your cover letter...</h1>
+</div>
+<body style="--url:none">
+    <p id="cover-letter-content" class="cover-letter">{{styled_reply | safe}}</p>
+    
+
+    <div class="button-container">
+        <button id="copy-btn" onclick="copyToClipboard()">Copy Text</button>
+    </div>
+    <a href="/">
+        <form action="/">
+            <div class="button-container">
+                <input id="submit-btn" type="button" value="BACK" />
+            </div>
+        </form>
+</a>
+<script src="/static/script.js"></script>
+</body>
+</html>
